@@ -273,3 +273,6 @@ li.breadcrumb-item.active {
 .nav-black .navbar-brand {
 	color: white;
 }
+.dropdown-menu {
+	left: -45px !important;
+}
