@@ -1,385 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saada Hack</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/Saada-Hack/assets/css/style.css">
-    <style>
-      a{
-        text-decoration: none;
-      }
-      .fa{
-        color: #f84949; 
-        font-weight: 800;
-        margin-top: 2%;
-        margin-right: 1.7%;
-        }
-        .data{
-          margin-top: 2%;
-        }
-        form{
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saada Hack</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    a {
+      text-decoration: none;
+    }
+
+    .fa {
+      color: #f84949;
+      font-weight: 800;
+      margin-top: 2%;
+      margin-right: 1.7%;
+    }
+
+    .data {
+      margin-top: 2%;
+    }
+
+    form {
       margin: 0 auto;
       display: table;
       margin-bottom: 2%;
-        }
-        .contact-heading{
-          margin-bottom: 7%;
-        }
-        .contact-data{
-          width: 700px;
-          height: 45px;
-          outline: transparent;
-          border: none;
-          margin-bottom: 2%;
-          border-bottom: 2px solid black;
-          border-radius: 10px;
-          padding-left: 14px;
-        }
-        .contact-data:focus{
-          
-          border-bottom: 2px solid #f84949 ;
-        }
-        .contact-data2{
-          width: 700px;
-          height: 75px;
-          border-radius: 10px;
-          outline: transparent;
-          border: none;
-          padding-left: 14px;
-          margin-left: 0px !important;
-          border-bottom: 2px solid black;
-        }
-        .contact-data2:focus{
-          border-bottom: 2px solid #f84949 ;
-        }
-        button{
-          width: 100px;
-          height: 35px;
-          letter-spacing: 1px;
-          background-color: #f84949;
-          border: none;
-          border-radius: 4px;
-          color: white;
-          margin: 0 auto;
-          display: table;
-        }
-        button:hover{
-           background-color: white;
-          border:2px solid #f84949;
-          border-radius: 4px;
-          color: #f84949;
-          font-weight: 700;
-        }
-       @media (max-width: 768px){
-        .contact-data{
-         margin-left: 1%;
-         width: 420px;
-        }
-        .contact-data2{
-          margin-left: 1%;
-         width: 420px;
-        }
-       }
-       .picture{
-       
-  display: flex;
-  justify-content: space-evenly;
-margin:10% ;
-margin-bottom: 4%;
-       }
-       .img-with-text {
-    text-align: justify;
-    width: 100px;
-}
-.bmi{
-  height: 400px;
-}
-.img-with-text img {
-    display: block;
-    margin: 0 auto;
-    height: 110px;
-}
+    }
 
-.arrow:hover{
-color: #f84949 !important;
-}
-footer{
-  background-color: #f84949;
-  height: 300px;
-  color: white;
-}
-.footer-subscribe{
-  color: #f84949;
-  background-color: white;
-  width: 150px;
-  margin-top: 8%;
-  height: 50px;
-  border-right: 2px solid rgb(29, 28, 28) ;
-  border-bottom: 2.5px solid rgb(29, 28, 28) ;
-}
-.footer-subscribe:hover{
-  color:black;
- 
-  font-weight: 400;
-}
-.footer-items:hover{
-  color: rgb(19, 10, 10) !important;
-}
-#thanks{
-  text-align:center;
-}
-@media (max-width:768px){
-  body{
-    overflow-x: hidden;
-  }
-}
+    .contact-heading {
+      margin-bottom: 7%;
+    }
 
-    </style>
-  </head>
+    .contact-data {
+      width: 700px;
+      height: 45px;
+      outline: transparent;
+      border: none;
+      margin-bottom: 2%;
+      border-bottom: 2px solid black;
+      border-radius: 10px;
+      padding-left: 14px;
+    }
+
+    .contact-data:focus {
+
+      border-bottom: 2px solid #f84949;
+    }
+
+    .contact-data2 {
+      width: 700px;
+      height: 75px;
+      border-radius: 10px;
+      outline: transparent;
+      border: none;
+      padding-left: 14px;
+      margin-left: 0px !important;
+      border-bottom: 2px solid black;
+    }
+
+    .contact-data2:focus {
+      border-bottom: 2px solid #f84949;
+    }
+
+    button {
+      width: 100px;
+      height: 35px;
+      letter-spacing: 1px;
+      background-color: #f84949;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      margin: 0 auto;
+      display: table;
+    }
+
+    button:hover {
+      background-color: white;
+      border: 2px solid #f84949;
+      border-radius: 4px;
+      color: #f84949;
+      font-weight: 700;
+    }
+
+    @media (max-width: 768px) {
+      .contact-data {
+        margin-left: 1%;
+        width: 420px;
+      }
+
+      .contact-data2 {
+        margin-left: 1%;
+        width: 420px;
+      }
+    }
+
+    .picture {
+
+      display: flex;
+      justify-content: space-evenly;
+      margin: 10%;
+      margin-bottom: 4%;
+    }
+
+    .img-with-text {
+      text-align: justify;
+      width: 100px;
+    }
+
+    .bmi {
+      display: block;
+      height: 400px;
+      margin: 0 auto;
+    }
+
+    .img-with-text img {
+      display: block;
+      margin: 0 auto;
+      height: 110px;
+    }
+
+    .arrow:hover {
+      color: #f84949 !important;
+    }
+
+    footer {
+      background-color: #f84949;
+      height: 300px;
+      color: white;
+    }
+
+    .footer-subscribe {
+      color: #f84949;
+      background-color: white;
+      width: 150px;
+      margin-top: 8%;
+      height: 50px;
+      border-right: 2px solid rgb(29, 28, 28);
+      border-bottom: 2.5px solid rgb(29, 28, 28);
+    }
+
+    .footer-subscribe:hover {
+      color: black;
+
+      font-weight: 400;
+    }
+
+    .footer-items:hover {
+      color: rgb(19, 10, 10) !important;
+    }
+
+    #thanks {
+      text-align: center;
+    }
+
+    @media (max-width:768px) {
+      body {
+        overflow-x: hidden;
+      }
+    }
+  </style>
+</head>
+
 <body>
-    <header>
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light fixed-top nav-normal" id="navbar">
-        <a class="navbar-brand" href="#" >Saada Hack</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-content"
-            aria-controls="collapsed-content" aria-expanded="false" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsed-content">
-            <ul class="navbar-nav mr-auto ml-lg-auto ml-md-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#ab">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  PROFILE
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="./signin.html">SIGN IN</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="./register.html">REGISTER</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="./membership.html">MEMBERSHIP</a>
-                </div>
-              </li>
-            </ul>
-    </div>
-</nav>
-    </header>
-    <main id="main">
-        <div class="container-fluid">
-        <div class="row">
-<div class="heading col-lg-6 col-sm-10 ml-sm-auto mr-sm-auto">
-<img src="/Saada-Hack/assets/images/banner-text.png" class="banner-text">
-</div>
-<img src="/Saada-Hack/assets/images/banner-art.png" class="banner-img col-lg-6 col-sm-8 ml-sm-auto mr-sm-auto">
-</div>
-
-
-</div>
-</main>
-<section class="about" id="ab">
-
-<div class="container">
-    <h2 class="h2-responsive text-center">About</h2>
-    <div class="card-group">
-        <div class="row">
-        <div class="card col-lg-4 col-md-6 animate__fadeIn animate__animated animate__delay-1s">
-          <img src="./assets/images/card-img.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Paperless Work</h5>
-            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-          </div>
-         
-        </div>
-        <div class="card col-lg-4 col-md-6 animate__fadeIn animate__animated animate__delay-2s">
-          <img src="./assets/images/card-img.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Appointment</h5>
-            <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
-          </div>
-         
-        </div>
-        <div class="card col-lg-4 col-md-12 animate__fadeIn animate__animated animate__delay-3s">
-          <img src="./assets/images/card-img.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Self Care</h5>
-            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
-          </div>
-        </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light fixed-top nav-normal" id="navbar"
+      style="width: 100vw !important;">
+      <a class="navbar-brand" href="#">Saada Hack</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-content"
+        aria-controls="collapsed-content" aria-expanded="false" aria-label="Toggle Navigation" style="    float: right; margin: 0; padding: 0;
+        ">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" style="justify-content: flex-end;" id="collapsed-content">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ab">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              PROFILE
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./signin.html">SIGN IN</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="./register.html">REGISTER</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="./membership.html">MEMBERSHIP</a>
+            </div>
+          </li>
+        </ul>
       </div>
-</div>
-</div>
-
-<div style="margin-top: 6%;">
-  <div class="basic-2" >
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="image-container">
-                    <img class="img-fluid future" src="./assets/images/fu.jpg" alt="alternative">
-                </div>
-            </div>
-            <div class="col-lg-6" id="reforms">
-                <div class="text-container">
-                  <h1 class="h2-responsive ">Future<span style="color: #f84949;font-weight:bolder;"> Plans</span></h1>
-                  <ul class="list-unstyled li-space-lg">
-                        <li class="media">
-                          <i  class="fa fa-stethoscope"  aria-hidden="true" ></i>
-                            <div class="media-body data"> Connecting, Chemists, Doctors and Patients altogether.
-                            </div>
-                        </li>
-                        <li class="media">
-                          <i  class="fa fa-stethoscope" aria-hidden="true"></i>
-                            <div class="media-body data">
-                              Least discrepancy of the harmful drugs/medicines. </div>
-                        </li>
-                        <li class="media">
-                          <i  class="fa fa-stethoscope" aria-hidden="true"></i>
-                            <div class="media-body data"> Making things easier for doctors & patients.
-                            </div>
-                        </li>
-                        <li class="media">
-                          <i  class="fa fa-stethoscope " aria-hidden="true"></i>
-                            <div class="media-body data">Regular updates to patients regarding their health.
-                            </div>
-                        </li>
-                        <li class="media">
-                          <i  class="fa fa-stethoscope" aria-hidden="true"></i>
-                            <div class="media-body data"> Suggestions for better maintaining health.  </div>
-                        </li>
-                        <li class="media">
-                          <i  class="fa fa-stethoscope" aria-hidden="true"></i>
-                            <div class="media-body data"> Creating a network for better future.  </div>
-                        </li>
-                        <li class="media">
-                          <i  class="fa fa-stethoscope" aria-hidden="true"></i>
-                            <div class="media-body data"> Giving regular fitness tips. </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-<div>
-  <div class="picture">
-    <img src="./assets/images/bag.jpg"  />
-    <img src="./assets/images/heart.JPG"   />
-    <img src="./assets/images/laptop.jpg" />
-   </div>
-  <a href="./signin.html" style="text-decoration: none;"> <button style="width: 400px;height: 55px;letter-spacing: 3px;margin-bottom: 7%;">Make an Appointment <i class="fa fa-long-arrow-right arrow" aria-hidden="true" ></i></button>
-</a></div>
-<div class="basic-1" id="agenda" style="margin-bottom: 9%;">
-  <div class="container">
+    </nav>
+  </header>
+  <main id="main">
+    <div class="container-fluid">
       <div class="row">
-          <div class="col-lg-6">
-              <div class="text-container" style="margin-top: 9%;">
-                <h1 class="h2-responsive text-center contact-heading">Want to Check your
-                  <br/> <span style="font-weight:bolder;letter-spacing: 4px;font-size: 60px;">BMI ?</span></h1>
-                <p>
-                  <a href="./bmi.html" style="text-decoration: none;"><button style="height: 50px;width: 200px;letter-spacing: 3px;">Click Here</button>
-                  </a>
-                  </p>
-
-              </div>
-          </div>
-          <div class="col-lg-6">
-              <div class="image-container">
-                  <img class="img-fluid bmi" src="./assets/images/bmi.svg" alt="alternative">
-              </div>
-          </div>
+        <div class="heading col-lg-6 col-sm-10 ml-sm-auto mr-sm-auto">
+          <img src="assets/images/banner-text.png" class="banner-text">
+        </div>
+        <img src="assets/images/banner-art.png" class="banner-img col-lg-6 col-sm-8 ml-sm-auto mr-sm-auto">
       </div>
+
+
+    </div>
+  </main>
+  <div class="container-fluid" style="background-color: #fdfdfd; padding: 150px 0;">
+    <div class="container">
+      <h2 class="h2-responsive text-center about-heading">About <span style=" color: #f84949;">Us</span></h2>
+      <div class="card-group">
+        <div class="col-md-6">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque veniam dicta totam dolore culpa optio
+          doloribus est, sapiente fugit consequuntur. Repellendus veniam iure labore deserunt eaque necessitatibus
+          aliquid qui nobis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus dolor fugit repudiandae
+          commodi aut, consequuntur voluptatibus odit dolorem! Repellendus a reprehenderit tenetur eum ullam, quo
+          recusandae amet harum eligendi fugit?
+        </div>
+        <div class="col-md-6 about-card-container">
+          <div class="about-card a">
+            <img class="about-img"
+              src="https://downloads.healthcatalyst.com/wp-content/uploads/2016/10/EHR-vs-Data-Warehouse.png"
+              style="filter: hue-rotate(300deg);" alt="">
+
+          </div>
+          <div class="about-card b">
+            <img class="about-img"
+              src="https://www.kindpng.com/picc/m/198-1985147_pediatric-telemedicine-for-kids-doctor-online-icon-png.png"
+              style="border-radius: 50%;" alt="">
+
+          </div>
+          <div class="about-card c">
+            <img class="about-img"
+              src="https://cdn.iconscout.com/icon/free/png-256/health-fitness-care-safe-fresh-heart-1-4142.png"
+              style="border-radius: 50%;" alt="">
+
+          </div>
+        </div>
+      </div>
+      <div class="div row" style="margin-top: 100px;">
+        <div class="col-sm-4 about-points animate__fadeIn animate__animated animate__delay-1s"><i
+            class="fa fa-circle"></i> <span style="font-size: 30px;">Paperless</span>
+        </div>
+        <div class="col-sm-4 about-points animate__fadeIn animate__animated animate__delay-2s"><i
+            class="fa fa-circle"></i> <span style="font-size: 30px;">Appointment</span></div>
+        <div class="col-sm-4 about-points animate__fadeIn animate__animated animate__delay-3s"><i
+            class="fa fa-circle"></i> <span style="font-size: 30px;">SelfCare</span>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-<div style="margin-bottom: 14%;">
-  <h5 class="h5-responsive text-center ">We Made It Simple For You</h5>
-  <h1 class="h1-responsive text-center" style="font-size: 60px;">How It<span style="color: #f84949;font-size: 63px;"> Works?</span></h1>
-<div class="picture">
-  <div class="img-with-text">
-    <img src="./assets/images/img-01-3.png" />
-    <h5>E-health</h5>
-</div>
-<div class="img-with-text">
-  <img src="./assets/images/img-02-4.png" />
-  <h5 style="width: 200px;"> Updates</h5>
-</div>
-<div class="img-with-text">
-  <img src="./assets/images/img-03-3.png" />
-  <h5 style="width: 200px;">Fitness Tips</h5>
-</div>
-</div></div>
 
-<div id="contact">
-  <form > <h1 class="h2-responsive text-center contact-heading">How can we <span style="color: #f84949;font-weight:bolder;">Help you?</span></h1>
-   <input type="text" placeholder="Name" class="contact-data" id="username" required/><br/>
-   <input type="email" placeholder="Email" class="contact-data" required/>
-   <br/>
-   <label for="address"><textarea type="text" placeholder="Message" class="contact-data2" required></textarea>
-   </label>
-   <br/>
- </form>
- <button onclick="send()">Send</button>
- <p id="thanks"></p>
- </div>
- <div style="margin-bottom: 3%;margin-top: 9%;">
-  <h1 class="h1-responsive text-center" style="font-size: 60px;">Our Team</h1>
-<div class="picture" style="margin-top: 5%;">
-  
-<div class="img-with-text">
-  <img src="./assets/images/man-avatars.jpg" style="height: 160px;" />
-  <h5 class="h5-responsive " style="width: 200px;">Harshit Sharma</h5>
-  <h1 class=" h1-responsive " style="width: 200px;margin-left: 22%;" ><a href="https://github.com/icoderharshit"><i class="fa fa-github" aria-hidden="true"></i> </a><a href="https://linkedin.com/in/iharshitsharma"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></h1>
-</div>
-<div class="img-with-text ">
-  <img src="./assets/images/woman-avatars.jpg" style="height: 160px;margin-left: 6px;" />
-  <h5 class="h5-responsive " style="width: 200px;">Bhavika Malhotra</h5>
+  <div style="margin: 6% 0;">
+    <div class="basic-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img class="img-fluid future" src="./assets/images/fu.jpg" alt="alternative">
+            </div>
+          </div>
+          <div class="col-lg-6" id="reforms">
+            <div class="text-container">
+              <h1 class="h2-responsive ">Future<span style="color: #f84949;font-weight:bolder;"> Plans</span></h1>
+              <ul class="list-unstyled li-space-lg">
+                <li class="media">
+                  <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                  <div class="media-body data"> Connecting, Chemists, Doctors and Patients altogether.
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                  <div class="media-body data">
+                    Least discrepancy of the harmful drugs/medicines. </div>
+                </li>
+                <li class="media">
+                  <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                  <div class="media-body data"> Making things easier for doctors & patients.
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="fa fa-stethoscope " aria-hidden="true"></i>
+                  <div class="media-body data">Regular updates to patients regarding their health.
+                  </div>
+                </li>
+                <li class="media">
+                  <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                  <div class="media-body data"> Suggestions for better maintaining health. </div>
+                </li>
+                <li class="media">
+                  <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                  <div class="media-body data"> Creating a network for better future. </div>
+                </li>
+                <li class="media">
+                  <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                  <div class="media-body data"> Giving regular fitness tips. </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<h1 class="h1-responsive" style="width: 200px;margin-left: 28%;" ><a href="https://github.com/ibhavikamalhotra"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="https://linkedin.com/in/ibhavikamalhotra"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></h1>
-</div>
-<div class="img-with-text">
-  <img src="./assets/images/man-avatars.jpg" style="height: 160px;" />
-  <h5 class="h5-responsive " style="width: 200px;margin-left: 17%;">Akshit Garg</h5>
-  <h1 class=" h1-responsive " style="width: 200px;margin-left: 28%;" ><i class="fa fa-github" aria-hidden="true"></i> <i class="fa fa-linkedin-square" aria-hidden="true"></i></h1>
-</div>
-</div></div>
-</section>
-<footer>
-  
-  <h4 class="h4-responsive float-left" style="margin-left: 5%;margin-top: 3.8%;">About Us :
-  <p><br/><a class="footer-items" href="./bmi.html" style="text-decoration: none;color: white;">BMI Calculate</a>
-    <br/>
-    <a class="footer-items" href="#"  style="text-decoration: none;color: white;">More Search</a>
-    <br/> <a class="footer-items" href="./register.html"  style="text-decoration: none;color: white;">Register</a>
-    <br/><a class="footer-items" href="./signin.html"  style="text-decoration: none;color: white;">Sign In</a><br/>
-    <a  class="footer-items" href="#contact"  style="text-decoration: none;color: white;">Help</a></p>
-  
-  </h4>
-  
- <h4 class="h4-responsive float-right" style="margin-right:5%;margin-top: 3.8%;width: 280px;"><i class="fa fa-hospital-o" aria-hidden="true" style="color: whitesmoke;"></i>For More Information :
-   
-   <br/>
-   <button class="footer-subscribe" >Subscribe</button>
-</h4>
-<h4 class="h4-responsive text-center" style="margin-top: 10%;">
-  <p><br/><br/>Contact Us:<br/><i class="fa fa-phone" aria-hidden="true" style="color: whitesmoke;"></i>+01123456688<br/><i class="fa fa-envelope-o" aria-hidden="true" style="color: white;"></i>saddahack@gmail.com</p>
-  
-  </h4>
-</footer>
+  <div class="container-fluid" style="background-color: #f5f5f5; padding: 150px 0;">
+    <div class="basic-1" id="agenda">
+      <div class=" container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="text-container" style="margin-top: 9%;">
+              <h1 class="h2-responsive text-center contact-heading">Want to Check your
+                <br /> <span style="font-weight:bolder;letter-spacing: 4px;font-size: 60px;">BMI ?</span></h1>
+              <p>
+                <a href="./bmi.html" style="text-decoration: none;"><button
+                    style="height: 50px;width: 200px;letter-spacing: 3px;">Click Here</button>
+                </a>
+              </p>
+
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img class="img-fluid bmi" src="./assets/images/bmi.svg" alt="alternative">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="margin-bottom: 14%;">
+    <h5 class="h5-responsive text-center ">We Made It Simple For You</h5>
+    <h1 class="h1-responsive text-center" style="font-size: 60px;">How It<span style="color: #f84949;font-size: 63px;">
+        Works?</span></h1>
+    <div class="picture">
+      <div class="img-with-text">
+        <img src="./assets/images/img-01-3.png" />
+        <h5>E-health</h5>
+      </div>
+      <div class="img-with-text">
+        <img src="./assets/images/img-02-4.png" />
+        <h5 style="width: 200px;"> Updates</h5>
+      </div>
+      <div class="img-with-text">
+        <img src="./assets/images/img-03-3.png" />
+        <h5 style="width: 200px;">Fitness Tips</h5>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <form>
+      <h1 class="h2-responsive text-center contact-heading">How can we <span
+          style="color: #f84949;font-weight:bolder;">Help you?</span></h1>
+      <input type="text" placeholder="Name" class="contact-data" id="username" required /><br />
+      <input type="email" placeholder="Email" class="contact-data" required />
+      <br />
+      <label for="address"><textarea type="text" placeholder="Message" class="contact-data2" required></textarea>
+      </label>
+      <br />
+    </form>
+    <button onclick="send()">Send</button>
+    <p id="thanks"></p>
+  </div>
+  <div style="margin-bottom: 3%;margin-top: 9%;">
+    <h1 class="h1-responsive text-center" style="font-size: 60px;">Our Team</h1>
+    <div class="picture" style="margin-top: 5%;">
+
+      <div class="img-with-text">
+        <img src="./assets/images/man-avatars.jpg" style="height: 160px;" />
+        <h5 class="h5-responsive " style="width: 200px;">Harshit Sharma</h5>
+        <h1 class=" h1-responsive " style="width: 200px;margin-left: 22%;"><a href="https://github.com/icoderharshit"><i
+              class="fa fa-github" aria-hidden="true"></i> </a><a href="https://linkedin.com/in/iharshitsharma"><i
+              class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </h1>
+      </div>
+      <div class="img-with-text ">
+        <img src="./assets/images/woman-avatars.jpg" style="height: 160px;margin-left: 6px;" />
+        <h5 class="h5-responsive " style="width: 200px;">Bhavika Malhotra</h5>
+
+        <h1 class="h1-responsive" style="width: 200px;margin-left: 28%;"><a
+            href="https://github.com/ibhavikamalhotra"><i class="fa fa-github" aria-hidden="true"></i></a> <a
+            href="https://linkedin.com/in/ibhavikamalhotra"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </h1>
+      </div>
+      <div class="img-with-text">
+        <img src="./assets/images/man-avatars.jpg" style="height: 160px;" />
+        <h5 class="h5-responsive " style="width: 200px;margin-left: 17%;">Akshit Garg</h5>
+        <h1 class=" h1-responsive " style="width: 200px;margin-left: 28%;"><i class="fa fa-github"
+            aria-hidden="true"></i> <i class="fa fa-linkedin-square" aria-hidden="true"></i></h1>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <footer>
+
+    <h4 class="h4-responsive float-left" style="margin-left: 5%;margin-top: 3.8%;">About Us :
+      <p><br /><a class="footer-items" href="./bmi.html" style="text-decoration: none;color: white;">BMI Calculate</a>
+        <br />
+        <a class="footer-items" href="#" style="text-decoration: none;color: white;">More Search</a>
+        <br /> <a class="footer-items" href="./register.html" style="text-decoration: none;color: white;">Register</a>
+        <br /><a class="footer-items" href="./signin.html" style="text-decoration: none;color: white;">Sign
+          In</a><br />
+        <a class="footer-items" href="#contact" style="text-decoration: none;color: white;">Help</a></p>
+
+    </h4>
+
+    <h4 class="h4-responsive float-right" style="margin-right:5%;margin-top: 3.8%;width: 280px;"><i
+        class="fa fa-hospital-o" aria-hidden="true" style="color: whitesmoke;"></i>For More Information :
+
+      <br />
+      <button class="footer-subscribe">Subscribe</button>
+    </h4>
+    <h4 class="h4-responsive text-center" style="margin-top: 10%;">
+      <p><br /><br />Contact Us:<br /><i class="fa fa-phone" aria-hidden="true"
+          style="color: whitesmoke;"></i>+01123456688<br /><i class="fa fa-envelope-o" aria-hidden="true"
+          style="color: white;"></i>saddahack@gmail.com</p>
+
+    </h4>
+  </footer>
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="/Saada-Hack/assets/js/script.js"></script>   
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </html>
